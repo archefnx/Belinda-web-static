@@ -1,3 +1,7 @@
+function randomInt(max) {
+    return Math.floor(Math.random() * max)
+}
+
 let words = null;
 $.ajax({
     'async': false,
@@ -10,7 +14,19 @@ $.ajax({
 });
 
 $('#next-button').on('click', function() {
-    let randNum = Math.floor(Math.random() * 20);
+    let randNum = randomInt(20);
+
     $('#word').text(words['list'][randNum]['word']);
     $('#translation').text(words['list'][randNum]['translation']);
+});
+
+$(window).keypress(function (e) {
+    if (e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault()
+
+        let randNum = randomInt(20);
+
+        $('#word').text(words['list'][randNum]['word']);
+        $('#translation').text(words['list'][randNum]['translation']);
+    }
 });
