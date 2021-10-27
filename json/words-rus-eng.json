@@ -1,0 +1,83 @@
+{
+    "list": [
+        {
+            "word": "ты",
+            "translation": "you"
+        },
+        {
+            "word": "он",
+            "translation": "he"
+        },
+        {
+            "word": "она",
+            "translation": "she"
+        },
+        {
+            "word": "оно",
+            "translation": "it"
+        },
+        {
+            "word": "мы",
+            "translation": "we"
+        },
+        {
+            "word": "вы",
+            "translation": "you"
+        },
+        {
+            "word": "они",
+            "translation": "they"
+        },
+        {
+            "word": "Здравствуй!",
+            "translation": "Hello!"
+        },
+        {
+            "word": "Здравствуйте!",
+            "translation": "Hello!"
+        },
+        {
+            "word": "Доброе утро!",
+            "translation": "Good morning!"
+        },
+        {
+            "word": "Добрый день!",
+            "translation": "Good afternoon!"
+        },
+        {
+            "word": "Добрый вечер!",
+            "translation": "Good evening!"
+        },
+        {
+            "word": "здороваться",
+            "translation": "to say hello"
+        },
+        {
+            "word": "Привет!",
+            "translation": "Hi!"
+        },
+        {
+            "word": "привет, приветствие",
+            "translation": "greeting"
+        },
+        {
+            "word": "приветствовать",
+            "translation": "to greet"
+        },
+        {
+            "word": "Как дела?",
+            "translation": "How are you?"
+        },
+        {
+            "word": "Что нового?",
+            "translation": "What's new?"
+        },
+        {
+            "word": "До свидания!",
+            "translation": "Bye-Bye! Goodbye!"
+        },
+        {
+            "word": "До скорой встречи!",
+            "translation": "See you soon!"
+        }
+    ]}

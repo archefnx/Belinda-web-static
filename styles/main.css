@@ -1,0 +1,38 @@
+.test{
+    box-shadow: 5px 5px 5px 5px gray;
+    elevation: 80deg;
+    border-radius: 3%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+}
+
+.card{
+    border-radius: 3%;
+}
+
+.background{
+    background-color: #00FFFA;
+}
+
+.card-font-control{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#card-word{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#card-wrapper{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-background{
+    background-color: #00FFFA;
+}
+
