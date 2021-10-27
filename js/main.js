@@ -1,16 +1,3 @@
-// const words = {
-//     'list': [
-//         {
-//             'word': 'Saccess',
-//             'translation': 'Успех',
-//         },
-//         {
-//             'word': 'Error',
-//             'translation': 'Ошибка',           
-//         },
-//     ]
-// }
-
 let words = null;
 $.ajax({
     'async': false,
@@ -21,11 +8,6 @@ $.ajax({
         words = data;
     }
 });
-
-console.log(words);
-console.log(words['list'][1]['word']);
-
-
 
 $('#next-button').on('click', function() {
     let randNum = Math.floor(Math.random() * 20);
