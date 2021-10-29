@@ -1,32 +1,39 @@
-function randomInt(max) {
-    return Math.floor(Math.random() * max)
-}
+// List of words
+let WORDS = null;
 
-let words = null;
 $.ajax({
     'async': false,
     'global': false,
     'url': "json/word-rus-eng.json",
     'dataType': "json",
     'success': function (data) {
-        words = data;
+        WORDS = data;
     }
 });
 
-$('#next-button').on('click', function() {
-    let randNum = randomInt(3112);
+// Generator random numbers
+function generatorRandomNumbers() {
+    return Math.floor(Math.random() * WORDS['list'].length)
+}
 
-    $('#word').text(words['list'][randNum]['word']);
-    $('#translation').text(words['list'][randNum]['translation']);
+$('#card-button').on('click', function() {
+    // Random words from lsist
+    let randNum = generatorRandomNumbers()
+
+    // Print random words from list, words and translation
+    $('#word').text(WORDS['list'][randNum]['word']);
+    $('#translation').text(WORDS['list'][randNum]['translation']);
 });
 
-$(window).keypress(function (e) {
-    if (e.key === ' ' || e.key === 'Spacebar') {
-        e.preventDefault()
+$(window).keypress(function (event) {
+    if (event.key === ' ' || e.key === 'spacebar'.toLowerCase()) {
+        event.preventDefault()
 
-        let randNum = randomInt(3112);
+        // Random words from list
+        let randNum = generatorRandomNumbers()
 
-        $('#word').text(words['list'][randNum]['word']);
-        $('#translation').text(words['list'][randNum]['translation']);
+        // Print random words from list, words and translation
+        $('#word').text(WORDS['list'][randNum]['word']);
+        $('#translation').text(WORDS['list'][randNum]['translation']);
     }
 });
