@@ -23,6 +23,9 @@ $('#card-button').on('click', function() {
     // Print random words from list, words and translation
     $('#word').text(WORDS['list'][randNum]['word']);
     $('#translation').text(WORDS['list'][randNum]['translation']);
+
+    //make sound
+    document.getElementById('sound1').play();
 });
 
 $(window).keypress(function (event) {
@@ -35,5 +38,13 @@ $(window).keypress(function (event) {
         // Print random words from list, words and translation
         $('#word').text(WORDS['list'][randNum]['word']);
         $('#translation').text(WORDS['list'][randNum]['translation']);
+
+        //make sound
+        document.getElementById('sound1').play();
     }
+});
+
+let titanic = new Titanic({
+    hover: true, // auto animated on hover (default true)
+    click: true  // auto animated on click/tap (default false)
 });
