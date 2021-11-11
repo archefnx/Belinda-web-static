@@ -17,6 +17,14 @@ a:hover{
   color: #898377;
 }
 
+p{
+line-height: 1.5rem;
+}
+
+h2, h3{
+    margin: 1rem 0;
+}
+
 .ul-header{
  margin-left: auto;
 }
@@ -36,4 +44,29 @@ header .nav-item a::after{
 }
 header .nav-item a:hover::after{
     transform: scale(1);
+}
+
+main #slider{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-two-index{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-about-author{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main img{
+    height: 450px;
+}
+
+.languages-list img{
+    height: 200px;
+}
+
+.about-author{
+    margin: 50px 0;
 }
