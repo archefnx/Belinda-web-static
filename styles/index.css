@@ -65,6 +65,12 @@ main img{
 
 .languages-list img{
     height: 200px;
+    border-radius: 15px;
+}
+
+.languages-list div{
+    margin: 10px 0;
+    border-radius: 15px;
 }
 
 .about-author{
