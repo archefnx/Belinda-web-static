@@ -2,12 +2,14 @@ body{
     min-width: 320px;
     font-size: 14px;
     color: #626262;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+header{
+    margin-bottom: 20px;
 }
+
+
 
 a{
     color: #b4ad9e;
@@ -63,16 +65,25 @@ main img{
     height: 450px;
 }
 
-.languages-list img{
-    height: 200px;
-    border-radius: 15px;
+.card-language div{
+    margin-left: 5px;
 }
 
-.languages-list div{
-    margin: 10px 0;
-    border-radius: 15px;
+.card-language img{
+    height: 200px;
 }
 
 .about-author{
     margin: 50px 0;
+}
+
+.some{
+    height: 350px;
+    background-color: #f0f0f0;
+    margin: 50px 0;
+    padding: 20px 400px;
+}
+
+.some button{
+    margin-top: 20px;
 }
