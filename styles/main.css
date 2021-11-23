@@ -1,3 +1,17 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    height: 50px;
+    background-color: #f0f0f0;
+}
+
 .card-shadow{
     box-shadow: 5px 5px 5px 5px gray;
     elevation: 80deg;
@@ -14,7 +28,7 @@
 }
 
 .background{
-    background-color: lightgray;
+    background-color: #f0f0f0;
 }
 
 .card-font-control{
@@ -28,12 +42,6 @@
 }
 
 .main-background{
-    background-color: #A6A6A6;
-    background-image: url("../img/background1.jpg");
-}
-
-.text-header{
-    color: lightgray;
 }
 
 .header-right{
@@ -60,12 +68,12 @@
 }
 
 #header{
-    background-color: #0f6674;
+    background-color: #f0f0f0;
     padding: 0 140px;
+    color: black;
 }
 
 #Belinda{
-    color: lightgray;
     font-size: 25px;
 }
 

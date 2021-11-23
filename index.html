@@ -1,153 +1,92 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="img/B.png">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 
-    <title>Belinda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <title>BELINDA</title>
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">BELINDA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ul-header">
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Other</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <div id="logo" onclick="slowScroll('#top')">
+        <span>BELINDA</span>
+    </div>
+    <div id="about">
+        <a href="#" title="Вожможности" onclick="slowScroll('#main')">Возможности</a>
+        <a href="#" title="Приемущества" onclick="slowScroll('#overview')">Языки</a>
+        <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+        <a href="#" title="Ответы на вопросы" onclick="slowScroll('#faq')">FAQ</a>
     </div>
 </header>
 
-<main class="container">
-
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1521489871110-81dc5a61dbda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1609667678863-b6971ef1e63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1585564907580-02af7fa91cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="about-author">
-        <h2 class="header-two-index">Something about author.</h2>
-        <p class="text-about-author">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, magni natus praesentium quasi repellat. Ad
-            adipisci amet architecto aspernatur atque autem consectetur consequuntur cumque cupiditate deleniti dignissimos
-            dolor eos eum, harum illum ipsam iste iusto libero maiores minima molestias nam nulla optio possimus provident
-            quas, quasi qui ratione rerum suscipit tempora ut voluptates voluptatum. Impedit perspiciatis quasi sequi
-            veniam? Aliquam aperiam enim eos exercitationem expedita illo ipsum, maiores molestias nam numquam odio
-            provident quisquam ratione, repellat reprehenderit suscipit vero voluptas voluptatibus! Ad, architecto eius ex
-            explicabo id iusto libero modi necessitatibus odit omnis ratione repellendus sequi, tempore ut, vel.
-        </p>
-    </div>
-
-</main>
-
-
-
-<div class="container">
-
-    <div class="row card-language container">
-        <div class="card col-md" style="width: 18rem;">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1585564907580-02af7fa91cef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=968&q=80" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">English</h5>
-                <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <a href="#" class="btn btn-success">Learn now</a>
-            </div>
-        </div>
-        <div class="card col-md" style="width: 18rem;">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1617451588899-7ac8679908c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">German</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra consectetur lacinia. Morbi aliquet lorem.</p>
-                <a href="#" class="btn btn-success">Learn now</a>
-            </div>
-        </div>
-        <div class="card col-md" style="width: 18rem;">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1594922234647-4ade6282c369?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Qazaq</h5>
-                <p class="card-text">Curabitur volutpat nulla felis, a varius erat pharetra dictum. Curabitur consectetur urna nulla, sed molestie.</p>
-                <a href="#" class="btn btn-success">Learn now</a>
-            </div>
-        </div>
-    </div>
-
+<div id="top">
+    <img src="img/logo.png" alt="" >
+    <h1>Изучение языков</h1>
+    <h3>как способ жизни!</h3>
 </div>
 
-<div class="some">
-    <div class="container text-center">
-        <h2>You can contact us!</h2>
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1"><strong>Email:</strong></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John@gmail.com">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1"><strong>Message:</strong></label>
-                <textarea type="text" class="form-control" id="exampleInputPassword1"></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">Submit</button>
-        </form>
+
+<div id="main">
+    <div class="intro">
+        <h2>Становись лучше с нами!</h2>
+        <span>Здесь вы получите то, что вам нужно!</span>
+    </div>
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis dolore, eos nemo, odit pariatur quae quaerat recusandae repellendus sed tempore voluptate, voluptates. Ab cum ea hic iste modi mollitia rem sequi, tempore ullam? Accusantium ad at commodi delectus doloremque dolorum eum eveniet excepturi facere, nam, numquam quia temporibus, veritatis.</span>
     </div>
 </div>
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container">
-    <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+<div id="overview">
+    <h2>Языки</h2>
+    <h4>доступные на данный момент</h4>
 
-    <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-    </ul>
-</footer>
+    <div class="img">
+        <img src="https://phonoteka.org/uploads/posts/2021-06/1624343558_49-phonoteka_org-p-angliya-oboi-krasivo-49.jpg" alt="">
+        <span>Aнглийский язык</span>
+    </div>
+    <div class="img">
+        <img src="https://aviasovet.ru/blog/wp-content/uploads/2011/12/81.jpg" alt="">
+        <span>Немецкий язык</span>
+    </div>
+    <div class="img">
+        <img src="https://phonoteka.org/uploads/posts/2021-05/1622014450_43-phonoteka_org-p-kazakhstan-art-krasivo-58.jpg" alt="">
+        <span>Казахский язык</span>
+    </div>
+    <div class="img">
+        <img src="https://cdn.fishki.net/upload/post/201403/22/1253820/8999-1920x1200.jpg" alt="">
+        <span>Русский язык</span>
+    </div>
+</div>
 
+<div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form action="" id="form_input">
+        <label for="name">Имя <span>*</span></label><br>
+        <input type="text" placeholder="Введите имя" name="name" id="name"><br>
 
+        <label for="email">Ваша почтa <span>*</span></label><br>
+        <input type="email" placeholder="Введите email" name="email" id="email"><br>
+
+        <label for="message">Сообщение <span>*</span></label><br>
+        <textarea type="text" placeholder="Введите Ваше сообщение" name="message" id="message"></textarea><br>
+        <button id="mess_send" class="btn btn-outline-primary">Отправить</button>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-<script src="js/jquery.js"></script>
-
 <script src="js/index.js"></script>
+
 </body>
 </html>

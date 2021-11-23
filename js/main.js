@@ -43,8 +43,3 @@ $(window).keypress(function (event) {
         document.getElementById('sound1').play();
     }
 });
-
-let titanic = new Titanic({
-    hover: true, // auto animated on hover (default true)
-    click: true  // auto animated on click/tap (default false)
-});
